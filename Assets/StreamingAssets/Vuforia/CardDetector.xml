@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="pig_female" size="50.000000 75.200714" />
+    <ImageTarget name="monkey_female" size="50.000000 81.238777" />
+    <ImageTarget name="goose_female" size="50.000000 77.845146" />
+    <ImageTarget name="goat_female" size="50.000000 80.872795" />
+    <ImageTarget name="elephant_female" size="50.000000 71.685692" />
+    <ImageTarget name="donkey_female" size="50.000000 80.000000" />
+    <ImageTarget name="dog_female" size="50.000000 81.238533" />
+    <ImageTarget name="bear_female" size="50.000000 79.752068" />
+    <ImageTarget name="king_back_card" size="50.000000 74.477425" />
+    <ImageTarget name="pig" size="50.000000 81.004364" />
+    <ImageTarget name="monkey" size="50.000000 76.372711" />
+    <ImageTarget name="goose" size="50.000000 73.630417" />
+    <ImageTarget name="goat" size="50.000000 79.296875" />
+    <ImageTarget name="elephant" size="50.000000 77.977722" />
+    <ImageTarget name="donkey" size="50.000000 80.775787" />
+    <ImageTarget name="dog" size="50.000000 79.674103" />
+    <ImageTarget name="bear" size="50.000000 80.805893" />
+  </Tracking>
+</QCARConfig>
