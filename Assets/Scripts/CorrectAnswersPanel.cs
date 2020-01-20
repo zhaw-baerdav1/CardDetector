@@ -9,7 +9,7 @@ public class CorrectAnswersPanel : MonoBehaviour
     private CorrectIcon correctIconPrefab;
 
     [SerializeField]
-    private ParticleSystem particlePrefab;
+    private Transform effect;
 
     private void Awake()
     {
@@ -18,7 +18,8 @@ public class CorrectAnswersPanel : MonoBehaviour
 
     private void CorrectAnswerList_OnCorrectAnswerListChanged(int count)
     {
-        particlePrefab.Play();
+        var effectTransform = Instantiate(effect, new Vector3(0, 0.1f, 0), Quaternion.identity);
+        effectTransform.SetParent(transform);
 
         var icon = Instantiate(correctIconPrefab);
         icon.Initialize(transform);

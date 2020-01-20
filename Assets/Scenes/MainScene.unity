@@ -3106,8 +3106,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -9.576038e-10, y: -1.1680723e-21, z: -9.209381e-37,
-    w: -9.576038e-10}
+  m_BoundingSphereOverride: {x: 1.7751098e+28, y: 220.45099, z: 1.8057856e+28, w: 4.6114206e+24}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -4561,7 +4560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctIconPrefab: {fileID: 7748703631283486754, guid: 8e9e52c6fdfec284ba5c5fb371b0e4cc,
     type: 3}
-  particlePrefab: {fileID: 0}
+  effect: {fileID: 400004, guid: 33384af7b24a0f14cb7bbf3b795f7a2b, type: 3}
 --- !u!114 &1077374495
 MonoBehaviour:
   m_ObjectHideFlags: 0

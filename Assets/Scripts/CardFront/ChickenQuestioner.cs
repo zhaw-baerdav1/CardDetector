@@ -39,7 +39,7 @@ public class ChickenQuestioner : MonoBehaviour
             newlyGeneratedNumber = CreateRandomNumber();
         }
 
-        _generatedNumber = newlyGeneratedNumber;
+        _generatedNumber = 1;//newlyGeneratedNumber;
         UpdateText(_generatedNumber);
     }
 
