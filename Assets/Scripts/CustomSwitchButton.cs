@@ -16,6 +16,7 @@ public class CustomSwitchButton : MonoBehaviour
     private void Awake()
     {
         GetComponent<Button>().onClick.AddListener(SwitchLayout);
+        cardBack.SetActive(false);
     }
 
     private void SwitchLayout()
